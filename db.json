@@ -1,0 +1,8 @@
+{
+  "chessPieces": [
+    { "name": "Black King", "symbol": "♚", "position": { "row": 0, "col": 4 } },
+    { "name": "White King", "symbol": "♔", "position": { "row": 7, "col": 4 } }
+  ]
+}
+
+  

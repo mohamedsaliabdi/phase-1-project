@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.chess-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  width: 90vmin;
+  height: 90vmin;
+  border: 2px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vmin;
+}
+
+.tile[data-color='white'] {
+  background-color: #fff;
+}
+
+.tile[data-color='black'] {
+  background-color: #444;
+  color: #fff;
+}
+
+.piece {
+  cursor: pointer;
+  user-select: none;
+}
